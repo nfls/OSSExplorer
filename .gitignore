@@ -15,3 +15,5 @@
 config.js
 /.idea
 /node_modules
+header.md
+shortcuts.json
