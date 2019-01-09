@@ -132,7 +132,7 @@
             }
         },
         mounted() {
-            this.axios.get("/shortcut").then((response)=>{
+            this.axios.get("/shortcuts").then((response)=>{
                 this.shortcuts = response.data["data"]
             })
             this.axios.get("/header").then((response)=>{
